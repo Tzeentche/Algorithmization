@@ -44,6 +44,6 @@ public class DiapasoneOfElements {
 
         System.out.println("Total number of positive values is " + positiveCounter);
         System.out.println("Total number of negative values is " + negativeCounter);
-        System.out.println("Total number of zero " + zeroCounter);
+        System.out.println("Total number of zero is " + zeroCounter);
     }
 }
