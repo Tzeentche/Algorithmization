@@ -20,7 +20,7 @@ public class MaxAndMin {
 
             int[] array = new int[size];
 
-            System.out.println("Values of array is: ");
+            System.out.println("Values of array are: ");
             for (int counter1 = 0; counter1 < size; counter1 ++) {
 
                 array[counter1] = (int)(Math.random() * (201) - 100);
