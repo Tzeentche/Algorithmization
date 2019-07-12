@@ -18,7 +18,7 @@ public class PrintMaxValues {
 
             int[] array = new int[size];
 
-            System.out.println("Elements, where their value is bigger, than their index, is: ");
+            System.out.println("Elements, where their value is bigger, than their index, are: ");
 
             for (int counter = 0;counter < size; counter ++) {
 
