@@ -24,7 +24,7 @@ public class SummByIndex {
             System.out.println("Values of array are: ");
             for (int counter1 = 0; counter1 < size; counter1 ++) {
 
-                array[counter1] = (int) (Math.random() * 21) - 10;
+                array[counter1] = (int)(Math.random() * 21) - 10;
             }
 
             for (int counter2 = 2; counter2 < size; counter2++) {
