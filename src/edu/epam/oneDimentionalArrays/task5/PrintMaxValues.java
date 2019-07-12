@@ -29,7 +29,7 @@ public class PrintMaxValues {
                 System.out.println(array[counter] + " ");
             }
             }
-
+            System.out.println("Source array is: ");
             for (int counter = 0; counter < size; counter ++) {
 
                 System.out.print(array[counter]+ " ");
