@@ -24,7 +24,7 @@ public class DiapasoneOfElements {
 
             for (int counter1 = 0; counter1 < n; counter1++) {
 
-                array[counter1] = (int)(Math.random() * (200 + 1)) - 100;
+                array[counter1] = (int)(Math.random() * 201) - 100;
 
                 System.out.println("Value of " + (counter1 + 1) + " number in array is: " + array[counter1]);
 
