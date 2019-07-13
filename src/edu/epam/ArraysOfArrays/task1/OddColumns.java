@@ -2,8 +2,6 @@ package edu.epam.ArraysOfArrays.task1;
 
 //  Дана матрица. Вывести на экран все нечетные столбцы, у которых первый элемент больше последнего
 
-import jdk.internal.util.xml.impl.Input;
-
 import java.util.*;
 import java.lang.*;
 
@@ -11,7 +9,6 @@ public class OddColumns {
 
     public static void main(String[] args) {
 
-        int boofer = 0;
         String[] arrayCharacteristic = new String[]{"LINES", "COLUMNS"};
         int[] arrayDimensions = new int[2];
 
@@ -51,9 +48,7 @@ public class OddColumns {
                             arrayOfArrays[arrayDimensions[0] - 1][columnsCounter]) {
 
                         System.out.print(arrayOfArrays[linesCounter][columnsCounter] + " ");
-
                     }
-
                 }
 
                 System.out.println(" ");
