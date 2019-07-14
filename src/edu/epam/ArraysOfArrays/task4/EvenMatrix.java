@@ -2,15 +2,13 @@ package edu.epam.ArraysOfArrays.task4;
 
 //Сформировать квадратную матрицу порядка n по заданному образцу(n - четное)
 
-import jdk.internal.util.xml.impl.Input;
-
 import java.util.*;
 
 public class EvenMatrix {
 
     public static void main(String[] args) {
 
-        int size = 0, boofer = 0;
+        int size = 0;
 
         Scanner input = new Scanner(System.in);
 
