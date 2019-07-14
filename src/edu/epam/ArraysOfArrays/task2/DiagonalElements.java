@@ -5,7 +5,7 @@ package edu.epam.ArraysOfArrays.task2;
 import java.util.*;
 import java.lang.*;
 
-public class DiaonalElements {
+public class DiagonalElements {
 
     public static void main(String[] args) {
 
