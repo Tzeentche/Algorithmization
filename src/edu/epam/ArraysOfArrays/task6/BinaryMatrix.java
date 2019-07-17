@@ -32,7 +32,8 @@ public class BinaryMatrix {
 
                 for (int secondCounter = 0; secondCounter < size; secondCounter ++) {
 
-                    if ((firstCounter == size) | (secondCounter == 0) | (firstCounter == 1) | (secondCounter == 1)) {
+                  if (secondCounter >= firstCounter & secondCounter + firstCounter < size | secondCounter <= firstCounter &
+                  secondCounter + firstCounter >= size - 1) {
 
                         array[firstCounter][secondCounter] = 1;
                     } else {
