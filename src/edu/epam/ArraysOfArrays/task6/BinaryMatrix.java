@@ -24,7 +24,6 @@ public class BinaryMatrix {
                 System.out.println("You entered non-even number. But we fixed it.");
             }
 
-
             System.out.println("Yours array has next view: ");
             int[][] array = new int[size][size];
 
@@ -32,8 +31,8 @@ public class BinaryMatrix {
 
                 for (int secondCounter = 0; secondCounter < size; secondCounter ++) {
 
-                  if (secondCounter >= firstCounter & secondCounter + firstCounter < size | secondCounter <= firstCounter &
-                  secondCounter + firstCounter >= size - 1) {
+                  if (secondCounter >= firstCounter & secondCounter + firstCounter < size |
+                      secondCounter <= firstCounter & secondCounter + firstCounter >= size - 1) {
 
                         array[firstCounter][secondCounter] = 1;
                     } else {
