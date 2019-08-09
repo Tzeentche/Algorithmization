@@ -20,10 +20,12 @@ public class ExchangeColumns {
 
         try {
 
-            // Create array with equal sizes
+            // Create array with equal sizes:
 
             System.out.println("Please, enter size for the array: ");
             size = input.nextInt();
+
+//            Fill and output array of User's size with random content:
 
             System.out.println("Yours array has next view: ");
             int[][] array = new int[size][size];
@@ -40,7 +42,7 @@ public class ExchangeColumns {
                 System.out.println(" ");
             }
 
-            // Choose 2 columns, that we want to change
+            // Choose 2 columns, that we want to change:
 
             for (int index = 0; index < 2; index ++) {
 
@@ -49,7 +51,7 @@ public class ExchangeColumns {
                 values[index] = input.nextInt();
             }
 
-//          Rewrite array with columns, that we changed
+//          Rewrite array with columns, that we were changed:
 
             for (int firstCounter = 0; firstCounter < size; firstCounter ++) {
 
@@ -73,6 +75,8 @@ public class ExchangeColumns {
                             array[firstCounter][values[0] - 1] = boofer;
                         }
                     }
+
+//                    Output old array with new content:
 
                     System.out.print(array[firstCounter][secondCounter] + " ");
                 }
