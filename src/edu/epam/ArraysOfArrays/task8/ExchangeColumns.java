@@ -20,6 +20,8 @@ public class ExchangeColumns {
 
         try {
 
+            // Create array with equal sizes
+
             System.out.println("Please, enter size for the array: ");
             size = input.nextInt();
 
@@ -38,6 +40,8 @@ public class ExchangeColumns {
                 System.out.println(" ");
             }
 
+            // Choose 2 columns, that we want to change
+
             for (int index = 0; index < 2; index ++) {
 
                 System.out.println("Please, enter numbers of " + columns[index] + " column, less than " + size +
@@ -45,16 +49,30 @@ public class ExchangeColumns {
                 values[index] = input.nextInt();
             }
 
+//          Rewrite array with columns, that we changed
+
             for (int firstCounter = 0; firstCounter < size; firstCounter ++) {
 
                 for (int secondCounter = 0; secondCounter < size; secondCounter ++) {
 
-                   if (firstCounter == values[1]) {
+                    if (values[0] < values[1]) {
 
-                      boofer  = array[values[1] - 1][secondCounter];
-                      array[values[0] - 1][secondCounter] = array[values[1] - 1][secondCounter];
-                      array[firstCounter][secondCounter] = boofer;
-                   }
+                        if (secondCounter == values[0] - 1) {
+
+                            boofer = array[firstCounter][values[0] - 1];
+                            array[firstCounter][values[0] - 1] = array[firstCounter][values[1] - 1];
+                            array[firstCounter][values[1] - 1] = boofer;
+                        }
+
+                    } else {
+
+                        if (secondCounter == values[1] - 1) {
+
+                            boofer = array[firstCounter][values[1] - 1];
+                            array[firstCounter][values[1] - 1] = array[firstCounter][values[0] - 1];
+                            array[firstCounter][values[0] - 1] = boofer;
+                        }
+                    }
 
                     System.out.print(array[firstCounter][secondCounter] + " ");
                 }
