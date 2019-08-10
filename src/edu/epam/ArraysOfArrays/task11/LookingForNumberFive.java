@@ -2,6 +2,7 @@ package edu.epam.ArraysOfArrays.task11;
 
 //      Матрицу 10x20 заполнить случайными числами от 0 до 15. Вывести на экран саму матрицу и номера строк,
 //      в которых число 5 встречается три и более раз.
+
 import java.util.*;
 
 public class LookingForNumberFive {
@@ -12,7 +13,7 @@ public class LookingForNumberFive {
 
         int mediator = 0;
         String rowsCounter = "";
-        int[][] array = new int[5][20];
+        int[][] array = new int[10][20];
 
         Random rnd = new Random();
 
@@ -22,7 +23,7 @@ public class LookingForNumberFive {
         System.out.println("Result of filling our array with random values from 0 to 15 is next: ");
         try {
 
-            for (int firstCounter = 0; firstCounter < 5; firstCounter ++) {
+            for (int firstCounter = 0; firstCounter < 10; firstCounter ++) {
 
                 for (int secondCounter = 0; secondCounter < 20; secondCounter ++) {
 
@@ -30,7 +31,7 @@ public class LookingForNumberFive {
 
                     System.out.print(array[firstCounter][secondCounter] + " ");
 
-//            Algorithm for finding number 5 in rows:
+//            Algorithm for finding number "5" in rows:
 
                     if (array[firstCounter][secondCounter] == 5) {
 
