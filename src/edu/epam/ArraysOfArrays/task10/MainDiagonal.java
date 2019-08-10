@@ -11,7 +11,6 @@ public class MainDiagonal {
 //        Declare using values:
 
         int[] buffer;
-        int mediator = 0;
         int size;
 
         Random rand = new Random();
