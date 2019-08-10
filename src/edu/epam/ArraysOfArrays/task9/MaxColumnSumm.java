@@ -26,7 +26,7 @@ public class MaxColumnSumm {
 
 //            Declare boofer array for counting max.column values:
 
-            int[] boofer = new int[size];
+            int[] buffer = new int[size];
 
 //            Fill the array with values:
 
@@ -41,7 +41,7 @@ public class MaxColumnSumm {
 
                     System.out.print(array[firstCounter][secondCounter] + " ");
 
-                    boofer[secondCounter] += array[firstCounter][secondCounter];
+                    buffer[secondCounter] += array[firstCounter][secondCounter];
                 }
 
                 System.out.println(" ");
@@ -50,26 +50,21 @@ public class MaxColumnSumm {
 //            Output results of buffer's counter and finding column with max value:
             System.out.println("Columns addition result is:");
 
-            max = boofer[0];
+            max = buffer[0];
             result = "1";
 
             for (int firstIndex = 0; firstIndex < size; firstIndex++) {
 
-                System.out.print(boofer[firstIndex] + " ");
+                System.out.print(buffer[firstIndex] + " ");
 
                 for (int secondIndex = 0; secondIndex < size; secondIndex++) {
 
-                    if (max < boofer[secondIndex]) {
+                    if (max < buffer[secondIndex]) {
 
-                        max = boofer[secondIndex];
+                        max = buffer[secondIndex];
 
                         result = "" + (secondIndex + 1);
                     }
-//
-//                    if (max == boofer[secondIndex]) {
-//
-//                        result += " and " + (secondIndex + 1);
-//                    }
                 }
             }
 
