@@ -21,10 +21,14 @@ public class StrangeBinaryMatrix {
         m = (rnd.nextInt(3) + 2);
         n = m + 1;
 
+//        Show the size of columns and rows for the array:
+
         System.out.println("Value of columns is: " + m);
         System.out.println("Value of rows is: " + n);
 
         int[][] array = new int[n][m];
+
+//        Fill the array with 1/0 values:
 
         try {
 
@@ -42,6 +46,7 @@ public class StrangeBinaryMatrix {
 
                         array[firstCounter][secondCounter] = 1;
                     }
+//          Show the array result:
 
                     System.out.print(array[firstCounter][secondCounter] + " ");
                 }
