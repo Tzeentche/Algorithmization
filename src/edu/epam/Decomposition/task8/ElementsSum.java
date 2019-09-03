@@ -9,6 +9,31 @@ import java.util.*;
 public class ElementsSum {
 
     public static void main(String[] args) {
-        
+
+    }
+
+    int sizeGenerator() {
+
+        return 0;
+    }
+
+    int contentGenerator(){
+
+        return 0;
+    }
+
+    int position(){
+
+        return 0;
+    }
+
+    int summOfElements(){
+
+        return 0;
+    }
+
+    int output() {
+
+        return 0;
     }
 }
