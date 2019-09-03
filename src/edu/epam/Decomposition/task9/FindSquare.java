@@ -9,6 +9,21 @@ public class FindSquare {
 
     public static void main(String[] args) {
 
-        
+
+    }
+
+    int sizeGenerator() {
+
+        return 0;
+    }
+
+    int formulaSquare() {
+
+        return 0;
+    }
+
+    int output() {
+
+        return 0;
     }
 }
