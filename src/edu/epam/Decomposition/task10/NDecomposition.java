@@ -9,6 +9,21 @@ public class NDecomposition {
 
     public static void main(String[] args) {
 
-        
+
+    }
+
+    int numberGenerator() {
+
+        return 0;
+    }
+
+    int numberSeparator() {
+
+        return 0;
+    }
+
+    int output() {
+
+        return 0;
     }
 }
