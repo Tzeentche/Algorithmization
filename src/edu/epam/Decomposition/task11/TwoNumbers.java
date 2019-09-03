@@ -8,6 +8,26 @@ public class TwoNumbers {
 
     public static void main(String[] args) {
 
-        
+
+    }
+
+    int generatorK() {
+
+        return 0;
+    }
+
+    int generatorN() {
+
+        return 0;
+    }
+
+    int arrayGenerator() {
+
+        return 0;
+    }
+
+    int output() {
+
+        return 0;
     }
 }
