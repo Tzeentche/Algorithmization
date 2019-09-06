@@ -6,5 +6,27 @@ package edu.epam.Decomposition.task13;
 
 public class Tweens {
 
-    
+    public static void main(String[] args) {
+
+    }
+
+    int generateN() {
+
+        return 0;
+    }
+
+    int generateNMultipleN() {
+
+        return 0;
+    }
+
+    int calculator() {
+
+        return 0;
+    }
+
+    int output() {
+
+        return 0;
+    }
 }
