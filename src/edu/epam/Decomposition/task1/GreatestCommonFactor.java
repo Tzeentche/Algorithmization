@@ -7,6 +7,30 @@ public class GreatestCommonFactor {
 
     public static void main(String[] args) {
 
+    }
 
+    int valueA() {
+
+        return 0;
+    }
+
+    int valueB() {
+
+        return 0;
+    }
+
+    int greatestCommonFactor() {
+
+        return 0;
+    }
+
+    int greatestCommonMultiple() {
+
+        return 0;
+    }
+
+    int output() {
+
+        return 0;
     }
 }
