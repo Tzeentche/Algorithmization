@@ -87,6 +87,7 @@ public class TwoArraysUnion {
 
                         System.out.print((firstArraySize - firstCounter + secondCounter - 2) + " ");
 
+
                         break;
                     }
                 }
